@@ -1,0 +1,18 @@
+---
+
+---
+<article>
+  <h2>
+   VanillaJs Counter: <span id="counterValue">0</span>
+  </h2>
+  <button id="incrementButton">Increment</button>
+</article>
+<script>
+  const countSpan = document.getElementById("counterValue")!;
+  let count = 0;
+
+  document.getElementById("incrementButton").addEventListener("click", () => {
+    count++; // Increment the count
+    countSpan.textContent = count.toString(); // Update the display
+  });
+</script>

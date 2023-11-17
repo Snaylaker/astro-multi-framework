@@ -1,0 +1,26 @@
+{
+  "name": "multi-framework",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.3.1",
+    "@astrojs/solid-js": "^3.0.2",
+    "@astrojs/svelte": "^4.0.3",
+    "@astrojs/vue": "^3.0.4",
+    "@builder.io/qwik": "^1.2.18",
+    "@qwikdev/astro": "^0.1.16",
+    "astro": "^3.5.4",
+    "typescript": "^5.2.2",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  }
+}
