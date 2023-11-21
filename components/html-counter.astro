@@ -11,8 +11,8 @@
   const countSpan = document.getElementById("counterValue")!;
   let count = 0;
 
-  document.getElementById("incrementButton").addEventListener("click", () => {
-    count++; // Increment the count
-    countSpan.textContent = count.toString(); // Update the display
+  document.getElementById("incrementButton")!.addEventListener("click", () => {
+    count++; 
+    countSpan.textContent = count.toString(); 
   });
 </script>
